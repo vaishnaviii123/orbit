@@ -11,12 +11,18 @@ import CounterTwo from "./components/customHook/CounterTwo";
 import UserForm from "./components/customHook/UserForm";
 import { UseState } from "./components/ReactRender/UseState/UseState";
 import { UseReducer } from "./components/ReactRender/UseState/UseReducer";
+import { ObjectUseState } from "./components/ImmutableState/ObjectUseState";
+import { ArrayUseState } from "./components/ImmutableState/ArrayUseState";
+import { Parent } from "./components/ParentChild/Parent";
 
 function App() {
   
   return (
     <div>
-      <UseReducer/>
+      <Parent/>
+      {/* <ArrayUseState/> */}
+      {/* <ObjectUseState/> */}
+      {/* <UseReducer/> */}
       {/* <UseState/> */}
       {/* <UserForm/> */}
       {/* <CounterOne/>
